@@ -1,0 +1,7 @@
+/setup/infra/cdk.out/
+/setup/infra/dist/
+/setup/infra/node_modules/
+__pycache__/
+.results/
+.DS_Store
+.vscode/

@@ -1,0 +1,20 @@
+{
+  "name": "@corigin-benchmarks/throughput-infra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
+    "synth": "cdk synth"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.201.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "aws-cdk": "^2.201.0",
+    "typescript": "^5.8.3"
+  }
+}
